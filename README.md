@@ -44,4 +44,4 @@ Dans le fichier `simulation.py`, plusieurs paramètres sont modifiables :
 * `cible` : identifiant de la cible à suivre
 
 ## Exemple de simulation
-<img src="exemple_simu/irp_robot_simu1_2.gif" width="500">
+<img src="exemple_simu/simu.gif" width="500">
