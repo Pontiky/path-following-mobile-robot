@@ -20,19 +20,19 @@ Alexandre MOUTARDE, Anthony THURIES, Rochedi LARBI, Yimtchen LY
 * Ouvrir le fichier `simulmation.py`
 * Exécuter la simulation en faisant un clic droit sur la fenêtre puis "Run File in Terminal" ou clic sur la flèche verte en haut à droite (si disponible)
 
-## Paramètres du projet 
+## Paramètres du projet
 
-Dans ce fichier, plusieurs paramètres sont modifiables :
+Dans le fichier `simulation.py`, plusieurs paramètres sont modifiables :
 * `Te = 0.005` (fréquence d'échantillonnage de la commande)
 * `trace = True` : Affiche la trace des robots
 * `save = True` : Génère un fichier "erreurs.txt" pour génère les courbes d'erreurs
 
-## Classes du projet
+### Classes du projet
 
 * `Cible(x0, y0, theta0, ax, couleur, vmax, tacc, Te, pattern)`
 * `Suiveur(x0, y0, theta0, ax, couleur, cible)`
 
-Arguments :
+### Arguments :
 * `x0`, `y0` : coordonnées du robot (en m)
 * `theta0` : orientation du robot (entre -180 et 180 degrés)
 * `ax` : axes de la figure qui affiche le robot
@@ -42,3 +42,6 @@ Arguments :
 * `Te` : période d'échantiollage
 * `pattern` : trajectoire du robot (ligne / cercle / huit / random / custom / control)
 * `cible` : identifiant de la cible à suivre
+
+## Exemple de simulation
+<img src="exemple_simu/irp_robot_simu1_2.gif" width="500">
