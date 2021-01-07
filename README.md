@@ -1,8 +1,8 @@
-IRP - Poursuite d’une cible par un robot mobile à roue
+IRP - Poursuite d’une cible par un robot mobile à roue non holonome
 =============
 
 ## A propos
-Projet réalisé pour l'UE IRP en M1 ISTR-RODECO en 2019-2020 par le groupe étudiant suivant :
+Projet réalisé pour l'UE Projet en M1 ISTR-RODECO (Paul Sabatier, Toulouse) en 2019-2020 par le groupe étudiant suivant :
 
 Alexandre MOUTARDE, Anthony THURIES, Rochedi LARBI, Yimtchen LY
 
